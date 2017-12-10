@@ -9,15 +9,15 @@
 Pod::Spec.new do |s|
   s.name             = 'QcloudIMOpenSDK'
   s.version          = '0.0.1'
-  s.summary          = 'A short description of QcloudIMOpenSDK.'
+  s.summary          = '腾讯云通信iOS SDK，集成了IMFriendshipExt、IMGroupExt、IMMessageExt、ImSDK、QALSDK以及TLSSDK这6个framework'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+腾讯云通信iOS SDK，集成了IMFriendshipExt、IMGroupExt、IMMessageExt、ImSDK、QALSDK以及TLSSDK这6个framework
                        DESC
 
   s.homepage         = 'https://github.com/Ethan89/QcloudIMOpenSDK'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Ethan89' => 'yaofeng.guo@gmail.com' }
+  s.author           = { 'Eth4n' => 'yaofeng.guo@gmail.com' }
   s.source           = { :git => 'https://github.com/Ethan89/QcloudIMOpenSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -38,5 +38,4 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'CoreTelephony', 'SystemConfiguration'
   s.libraries = 'stdc++.6', 'c++', 'z', 'sqlite3'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

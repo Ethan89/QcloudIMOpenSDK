@@ -1,7 +1,7 @@
 #use_frameworks!
 
 target 'QcloudIMOpenSDK_Example' do
-  pod 'QcloudIMOpenSDK', :path => '../'
+    pod 'QcloudIMOpenSDK', :path => '../'
 
   target 'QcloudIMOpenSDK_Tests' do
     inherit! :search_paths

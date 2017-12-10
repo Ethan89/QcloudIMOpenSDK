@@ -1,15 +1,7 @@
 # QcloudIMOpenSDK
 
-[![CI Status](http://img.shields.io/travis/Ethan89/QcloudIMOpenSDK.svg?style=flat)](https://travis-ci.org/Ethan89/QcloudIMOpenSDK)
-[![Version](https://img.shields.io/cocoapods/v/QcloudIMOpenSDK.svg?style=flat)](http://cocoapods.org/pods/QcloudIMOpenSDK)
-[![License](https://img.shields.io/cocoapods/l/QcloudIMOpenSDK.svg?style=flat)](http://cocoapods.org/pods/QcloudIMOpenSDK)
-[![Platform](https://img.shields.io/cocoapods/p/QcloudIMOpenSDK.svg?style=flat)](http://cocoapods.org/pods/QcloudIMOpenSDK)
-
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ## Requirements
+iOS 8.0+
 
 ## Installation
 
@@ -22,7 +14,7 @@ pod 'QcloudIMOpenSDK'
 
 ## Author
 
-Ethan89, yaofeng.guo@gmail.com
+Eth4n, yaofeng.guo@gmail.com
 
 ## License
 

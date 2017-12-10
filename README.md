@@ -1,4 +1,5 @@
 # QcloudIMOpenSDK
+腾讯云通信iOS SDK，集成了IMFriendshipExt、IMGroupExt、IMMessageExt、ImSDK、QALSDK以及TLSSDK这6个framework
 
 ## Requirements
 iOS 8.0+

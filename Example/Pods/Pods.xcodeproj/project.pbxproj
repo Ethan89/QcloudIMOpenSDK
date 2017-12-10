@@ -1,0 +1,943 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01CE6BC871FD860FC3A7D89097CA5B08 /* TLSUserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CE9F98900AD4DAD8E57F9E5983B00EA /* TLSUserInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06D43ADECDA24E994715F5B317EA335C /* TLSSmsRegListener.h in Headers */ = {isa = PBXBuildFile; fileRef = F42655C88132F706878344AA802AC2C1 /* TLSSmsRegListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0721A5E4082B45845B0B001064BE3D38 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C396E5C50BD8EE53E0362FE2E06AE8 /* CoreTelephony.framework */; };
+		07D0F2E54ACF76748150EFA09DD48137 /* TLSExchangeTicketListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DF910CA46093FB00E7A17B1060EF293 /* TLSExchangeTicketListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07D4F256322EA18B7D820E484A914665 /* TLSRefreshTicketListener.h in Headers */ = {isa = PBXBuildFile; fileRef = C2F0B9B40F712C7C5BAEE0749D1BDFC6 /* TLSRefreshTicketListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A0B7BE8D62D1FF67737F2255AF0C76A /* TIMGroupManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A65DCF91283AB9DC1FEC725AA9D0D8B /* TIMGroupManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		159DDDC681E877E2F68D314D7C0C9720 /* TLSHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CB304681ADDFEBC1153C584BB0AAB988 /* TLSHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FA478C5ADE95958B5CB8B32C209A061 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584CB9F6BD0B54A2910EB5167AABB075 /* SystemConfiguration.framework */; };
+		25948CAE94F81DA23538049AD5C7A6EA /* TLSGuestRegListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 2854C661FF7CC3E6EF467FCCE7BF50FF /* TLSGuestRegListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A35C7B889045C158463AFB75D66E88B /* QcloudIMOpenSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D59034F671824E0152C97E44CD4F98BA /* QcloudIMOpenSDK-dummy.m */; };
+		2AAAA82030BAB4F227F7926745B5B02A /* TLSOpenLoginListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F9C7FCEFC06D9923692B5B186D0F5DD /* TLSOpenLoginListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		337756C07B53F7EC82A677418F546CCF /* TLSDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 62B36718E3268671159CC772F9030A18 /* TLSDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		342CC55FDD3504D174E242BCF908A165 /* TIMConversation.h in Headers */ = {isa = PBXBuildFile; fileRef = 83CD9B6154345D772C6130AA9A95D3EC /* TIMConversation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39E5ABA226B81C47F032694E745DB6FC /* TIMManager+MsgExt.h in Headers */ = {isa = PBXBuildFile; fileRef = CB73376791587408E348269EC92FCD79 /* TIMManager+MsgExt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A86AF0F0BC9B9B2B50D4F2518497CC0 /* TLSStrAccountRegListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A28E354CD87845AD15CBA0CDE10B53C /* TLSStrAccountRegListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4ED1D636DC265B55E2EB89492708E396 /* TLSOpenQueryListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 94FBA02CF0ABFF0F5124090CCD19BC4D /* TLSOpenQueryListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F52F52263F358A44C36A73C27B04049 /* IMSdkComm.h in Headers */ = {isa = PBXBuildFile; fileRef = CD4749851F9DE8255084A221D0FAA7AD /* IMSdkComm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		506C7EBBA11020278229D4633A937CA9 /* TLSOpenAccessTokenListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 3514554FD510AF2CD2241C5F927F7886 /* TLSOpenAccessTokenListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		547FDBE94D51325D8D12CE5D63A436D8 /* IMMessageExt.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B300FF3E54696A053D68EEC6560303 /* IMMessageExt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57B30BEEA064BA4BC718B355A808F3D9 /* Pods-QcloudIMOpenSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F649C0E275B7A08D50ED44A35AF8A9FF /* Pods-QcloudIMOpenSDK_Example-dummy.m */; };
+		57DCEBBBCE51A36E2EF317CBC36E082D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9212B0858CE38CAB25B153C4609AA244 /* Foundation.framework */; };
+		5A1EB2D1D2AFBBC4468CE5F76F7F6374 /* IMGroupExt in Sources */ = {isa = PBXBuildFile; fileRef = 28B212448DE622C2628F9E90D6F493AB /* IMGroupExt */; };
+		5BAB3CF0671A67BE958F09E86CBF33DE /* TIMComm+FriendshipExt.h in Headers */ = {isa = PBXBuildFile; fileRef = 0440C8FD5A22C9484857006F5C0F4A1E /* TIMComm+FriendshipExt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F7F1CB827E4545BB9DBE4D28BA299FF /* TIMCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = AD574713D8D7E05FC53AE65023E4ADB8 /* TIMCallback.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F8F3C24286B079E3A2ABE12AB1890D6 /* ImSDK in Sources */ = {isa = PBXBuildFile; fileRef = 7D30577D110D675412789D7D577F01CF /* ImSDK */; };
+		60F37F2A5373A59740E063F265E90B18 /* TIMComm.h in Headers */ = {isa = PBXBuildFile; fileRef = 84CAC0FAD8E0B3B1A22E6A80ADFD0E9D /* TIMComm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63ADB755AB928624B7A56D72A324B6BA /* TIMFriendshipManager+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 511BB82E7F01ED26999AB4E616AC46D0 /* TIMFriendshipManager+Ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63FB3130F897954B22B64563B4C610AF /* IMFriendshipExt.h in Headers */ = {isa = PBXBuildFile; fileRef = B753F62ED1CE1644B513C00AB7B29C94 /* IMFriendshipExt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ACDF561600F4EC9E0116C9818FEAA33 /* TIMComm+MsgExt.h in Headers */ = {isa = PBXBuildFile; fileRef = 5553EFFDDF2BE40DA5A36C5D53E1A589 /* TIMComm+MsgExt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DFEFCB220485BC29E5B2BEA0E6B1DA6 /* TIMVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = F08E4F54565FFC4892E078032217EBA3 /* TIMVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E1778E7625765065E4F98FB8E686A1F /* TLSOpenBindListener.h in Headers */ = {isa = PBXBuildFile; fileRef = A6C0A793FB6D36203133419B50979A83 /* TLSOpenBindListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E84A9220E5CF13FF1F11405A18C0CD8 /* TLSSmsLoginListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF8D417EA6421C3C0DD407EB05EB2E9 /* TLSSmsLoginListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7110975DFC69CE95BF06ACBBFC6C5CDC /* IMSdkInt.h in Headers */ = {isa = PBXBuildFile; fileRef = 41AD8CFD9B8B2DA17D8CAB26AFBE3E6D /* IMSdkInt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72D775CEA0727612729FB8CDF9F930AD /* QALSDK in Sources */ = {isa = PBXBuildFile; fileRef = 5191D995F19B44F90BBF7CF851397B9F /* QALSDK */; };
+		774C8A4E3656F8CD62BA78974AD585BF /* TLSSDK in Sources */ = {isa = PBXBuildFile; fileRef = 9C3CB77F6E768968A22C367BD545E864 /* TLSSDK */; };
+		82CD21C3E74E44E3DEFC7EA026A3C534 /* TIMConversation+MsgExt.h in Headers */ = {isa = PBXBuildFile; fileRef = D9D4683073D3D8C3F46F67B994DC1DDD /* TIMConversation+MsgExt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91DC28ACD91BA7E8DA07C33E4DF8C670 /* IMGroupExt.h in Headers */ = {isa = PBXBuildFile; fileRef = 03A24E5AA7AAFA722BEEB2CB7EAF1943 /* IMGroupExt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E3DC9F369179A2C7FA53AC5277DFF0E /* TIMFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 380982B17EBA5DB1316ECA862E4BB32A /* TIMFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E470E54E8F66C0883C14B4B12AB02D0 /* IMMessageExt in Sources */ = {isa = PBXBuildFile; fileRef = ABA04E5C5546ED01528F309A7F9BC0D3 /* IMMessageExt */; };
+		A25D220841C19A193E442254F8849DD1 /* Pods-QcloudIMOpenSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D10316DC8157E4E55EC10C900C2A029E /* Pods-QcloudIMOpenSDK_Tests-dummy.m */; };
+		A73BD1034C7FD77F8AD515F6786F71F3 /* TLSPwdRegListener.h in Headers */ = {isa = PBXBuildFile; fileRef = FF9EDE91DEE70ED6BF5FB0B20E89DB59 /* TLSPwdRegListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A89470793EC9D8C4509DEDBCA30ABBC6 /* TIMGroupManager+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3ACB6EF329E6D2F10634585CCFB830 /* TIMGroupManager+Ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A89880D21DE41D7C5811956A7F312A2C /* TIMMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 50D0AF5004B1E78DC5DA650E742DF66F /* TIMMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2277539A6A9E7BB8593CD88B3DB9FAB /* TLSAccountHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2319A42AC78E990BBDAD26EC0AF41D9A /* TLSAccountHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B34504615E399D9BB86C0E6A15ED0EBD /* TLSPwdLoginListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 61035E5270B47F4636E87230E7809FD9 /* TLSPwdLoginListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF72222470BB5CC708F516AABB51FF8A /* TLSPwdResetListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABEE868C8BB2505DBD57A9FF35223B8 /* TLSPwdResetListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9AAD187C2C39B35FA4E4B048047ED69 /* TIMComm+Group.h in Headers */ = {isa = PBXBuildFile; fileRef = BBAA8D240B2236EC21425855F11D21B5 /* TIMComm+Group.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9B72ABB554F045B2C0CBCECA0313A77 /* TLSErrInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E294398FB79590C2A2E95365787BE3 /* TLSErrInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D20B814A56524499F5622999EB94452C /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = D6051EFE94D96A43CBC8F5F6415CC489 /* version.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D30B1C0F1287A03D474AE12B85F78CB7 /* TLSLoginHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 968BC704CBFE135856B4B1C4D44A1B36 /* TLSLoginHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3A3DDEAC0C1664B96069A35EBD255E4 /* TLSGuestLoginListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 43012087BFD1F728F29CFD21E4D0D559 /* TLSGuestLoginListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3FCA693C4A4FD7EC43AC86335E4A0B1 /* TIMManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BFD7373DDC51E5E3CAE771D6A999C548 /* TIMManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5173CDCC7FAC9E04CFFAD2DA0D6848F /* TLSTokenInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 75A5693CE790F1ECAB9BFC859626EC9A /* TLSTokenInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5B69842C9149542BF43815F159B39BF /* IMFriendshipExt in Sources */ = {isa = PBXBuildFile; fileRef = 600FD52FEDC60FD387C2C780610258A3 /* IMFriendshipExt */; };
+		DD873851E781EB932BDC48996142494F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9212B0858CE38CAB25B153C4609AA244 /* Foundation.framework */; };
+		DF194C41FD8915BCB7B353BCBAFF51AB /* ImSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = BCDCA7B4DF0F34392D06C6EC79CBCBF7 /* ImSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E12C2757622DEB5CD4125EF32E36E6C6 /* TIMMessage+MsgExt.h in Headers */ = {isa = PBXBuildFile; fileRef = 811A905DFF17ACB1F0A1E5734755A5DA /* TIMMessage+MsgExt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E443AE3AA5AEB8EC1C062B16D970E1CE /* TIMFriendshipManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C652210C0DFA4E521879A4738C99BB /* TIMFriendshipManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED1D1BD06D3DFD24AF416FAC6BAF0C55 /* QalSDKCallbackProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BACF8E178C40CA7432ACE984D398C88 /* QalSDKCallbackProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1224231152D3F9910D50E5CAE0B222F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9212B0858CE38CAB25B153C4609AA244 /* Foundation.framework */; };
+		F1B27D60113B7DA59096D22D22CE9657 /* QalSDKProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 066947B118C72C362100B224473A3D62 /* QalSDKProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9449EE4B2B131ACF3084B562638119B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9779016B6868002ED479697D9BAECCE3;
+			remoteInfo = QcloudIMOpenSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		016FB79661170F64DDABF4C3F5888BEB /* Pods-QcloudIMOpenSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QcloudIMOpenSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		02673FCBE88D94909BA337330F2949B6 /* libQcloudIMOpenSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libQcloudIMOpenSDK.a; path = libQcloudIMOpenSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		03A24E5AA7AAFA722BEEB2CB7EAF1943 /* IMGroupExt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IMGroupExt.h; sourceTree = "<group>"; };
+		0440C8FD5A22C9484857006F5C0F4A1E /* TIMComm+FriendshipExt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TIMComm+FriendshipExt.h"; sourceTree = "<group>"; };
+		066947B118C72C362100B224473A3D62 /* QalSDKProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QalSDKProxy.h; sourceTree = "<group>"; };
+		09C9DA232BC396A9490E3F2E95EC3BAC /* QcloudIMOpenSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QcloudIMOpenSDK.xcconfig; sourceTree = "<group>"; };
+		0A4FA70D764D3FD6B3986A343E99B8E5 /* IMFriendshipExt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IMFriendshipExt.framework; path = QcloudIMOpenSDK/Classes/IM_iOS_SDK_3.1.1/IMFriendshipExt.framework; sourceTree = "<group>"; };
+		18754DC47AFF45D32A42F58EF1A5D646 /* QALSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QALSDK.framework; path = QcloudIMOpenSDK/Classes/IM_iOS_SDK_3.1.1/QALSDK.framework; sourceTree = "<group>"; };
+		1B00C5DC07717B45FB3BB530E46546C2 /* libPods-QcloudIMOpenSDK_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-QcloudIMOpenSDK_Example.a"; path = "libPods-QcloudIMOpenSDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2319A42AC78E990BBDAD26EC0AF41D9A /* TLSAccountHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TLSAccountHelper.h; sourceTree = "<group>"; };
+		2854C661FF7CC3E6EF467FCCE7BF50FF /* TLSGuestRegListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TLSGuestRegListener.h; sourceTree = "<group>"; };
+		28B212448DE622C2628F9E90D6F493AB /* IMGroupExt */ = {isa = PBXFileReference; includeInIndex = 1; path = IMGroupExt; sourceTree = "<group>"; };
+		2CFE3E54F9EB589942C136ABD2383CAE /* libPods-QcloudIMOpenSDK_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-QcloudIMOpenSDK_Tests.a"; path = "libPods-QcloudIMOpenSDK_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D6EA8B17085CEF489F06B800737594D /* TLSSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TLSSDK.framework; path = QcloudIMOpenSDK/Classes/IM_iOS_SDK_3.1.1/TLSSDK.framework; sourceTree = "<group>"; };
+		3514554FD510AF2CD2241C5F927F7886 /* TLSOpenAccessTokenListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TLSOpenAccessTokenListener.h; sourceTree = "<group>"; };
+		369AF12B984E36A598104E718BACE870 /* Pods-QcloudIMOpenSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QcloudIMOpenSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		380982B17EBA5DB1316ECA862E4BB32A /* TIMFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TIMFileManager.h; sourceTree = "<group>"; };
+		3F9C7FCEFC06D9923692B5B186D0F5DD /* TLSOpenLoginListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TLSOpenLoginListener.h; sourceTree = "<group>"; };
+		3FF8D417EA6421C3C0DD407EB05EB2E9 /* TLSSmsLoginListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TLSSmsLoginListener.h; sourceTree = "<group>"; };
+		41AD8CFD9B8B2DA17D8CAB26AFBE3E6D /* IMSdkInt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IMSdkInt.h; sourceTree = "<group>"; };
+		43012087BFD1F728F29CFD21E4D0D559 /* TLSGuestLoginListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TLSGuestLoginListener.h; sourceTree = "<group>"; };
+		47C8A7EA27ED6EA7256509F0D4A9D6E2 /* Pods-QcloudIMOpenSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QcloudIMOpenSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		49E294398FB79590C2A2E95365787BE3 /* TLSErrInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TLSErrInfo.h; sourceTree = "<group>"; };
+		50D0AF5004B1E78DC5DA650E742DF66F /* TIMMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TIMMessage.h; sourceTree = "<group>"; };
+		511BB82E7F01ED26999AB4E616AC46D0 /* TIMFriendshipManager+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TIMFriendshipManager+Ext.h"; sourceTree = "<group>"; };
+		5191D995F19B44F90BBF7CF851397B9F /* QALSDK */ = {isa = PBXFileReference; includeInIndex = 1; path = QALSDK; sourceTree = "<group>"; };
+		5553EFFDDF2BE40DA5A36C5D53E1A589 /* TIMComm+MsgExt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TIMComm+MsgExt.h"; sourceTree = "<group>"; };
+		584CB9F6BD0B54A2910EB5167AABB075 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		5A65DCF91283AB9DC1FEC725AA9D0D8B /* TIMGroupManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TIMGroupManager.h; sourceTree = "<group>"; };
+		5BACF8E178C40CA7432ACE984D398C88 /* QalSDKCallbackProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QalSDKCallbackProtocol.h; sourceTree = "<group>"; };
+		5CE9F98900AD4DAD8E57F9E5983B00EA /* TLSUserInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TLSUserInfo.h; sourceTree = "<group>"; };
+		5DF910CA46093FB00E7A17B1060EF293 /* TLSExchangeTicketListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TLSExchangeTicketListener.h; sourceTree = "<group>"; };
+		600FD52FEDC60FD387C2C780610258A3 /* IMFriendshipExt */ = {isa = PBXFileReference; includeInIndex = 1; path = IMFriendshipExt; sourceTree = "<group>"; };
+		61035E5270B47F4636E87230E7809FD9 /* TLSPwdLoginListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TLSPwdLoginListener.h; sourceTree = "<group>"; };
+		62B36718E3268671159CC772F9030A18 /* TLSDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TLSDefine.h; sourceTree = "<group>"; };
+		6E73BD7A15A3667213B39C145734D914 /* Pods-QcloudIMOpenSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QcloudIMOpenSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		72C652210C0DFA4E521879A4738C99BB /* TIMFriendshipManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TIMFriendshipManager.h; sourceTree = "<group>"; };
+		7501EA8032E6859315351A9B5AAF139E /* Pods-QcloudIMOpenSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QcloudIMOpenSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		75A5693CE790F1ECAB9BFC859626EC9A /* TLSTokenInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TLSTokenInfo.h; sourceTree = "<group>"; };
+		794DF6D5381280BFD69BEA8AE2888C5A /* Pods-QcloudIMOpenSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QcloudIMOpenSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7A229C9F19B762BFE353D93D4237AFE2 /* IMMessageExt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IMMessageExt.framework; path = QcloudIMOpenSDK/Classes/IM_iOS_SDK_3.1.1/IMMessageExt.framework; sourceTree = "<group>"; };
+		7ABEE868C8BB2505DBD57A9FF35223B8 /* TLSPwdResetListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TLSPwdResetListener.h; sourceTree = "<group>"; };
+		7C9CE32AF841B4D53CAC7CDEBD9FB38D /* Pods-QcloudIMOpenSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QcloudIMOpenSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7D30577D110D675412789D7D577F01CF /* ImSDK */ = {isa = PBXFileReference; includeInIndex = 1; path = ImSDK; sourceTree = "<group>"; };
+		811A905DFF17ACB1F0A1E5734755A5DA /* TIMMessage+MsgExt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TIMMessage+MsgExt.h"; sourceTree = "<group>"; };
+		812F57DA2905D4F37AD18417153E44C8 /* Pods-QcloudIMOpenSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QcloudIMOpenSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		83CD9B6154345D772C6130AA9A95D3EC /* TIMConversation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TIMConversation.h; sourceTree = "<group>"; };
+		84CAC0FAD8E0B3B1A22E6A80ADFD0E9D /* TIMComm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TIMComm.h; sourceTree = "<group>"; };
+		9212B0858CE38CAB25B153C4609AA244 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94FBA02CF0ABFF0F5124090CCD19BC4D /* TLSOpenQueryListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TLSOpenQueryListener.h; sourceTree = "<group>"; };
+		968BC704CBFE135856B4B1C4D44A1B36 /* TLSLoginHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TLSLoginHelper.h; sourceTree = "<group>"; };
+		9A28E354CD87845AD15CBA0CDE10B53C /* TLSStrAccountRegListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TLSStrAccountRegListener.h; sourceTree = "<group>"; };
+		9C3CB77F6E768968A22C367BD545E864 /* TLSSDK */ = {isa = PBXFileReference; includeInIndex = 1; path = TLSSDK; sourceTree = "<group>"; };
+		9F3ACB6EF329E6D2F10634585CCFB830 /* TIMGroupManager+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TIMGroupManager+Ext.h"; sourceTree = "<group>"; };
+		A0B300FF3E54696A053D68EEC6560303 /* IMMessageExt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IMMessageExt.h; sourceTree = "<group>"; };
+		A6C0A793FB6D36203133419B50979A83 /* TLSOpenBindListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TLSOpenBindListener.h; sourceTree = "<group>"; };
+		ABA04E5C5546ED01528F309A7F9BC0D3 /* IMMessageExt */ = {isa = PBXFileReference; includeInIndex = 1; path = IMMessageExt; sourceTree = "<group>"; };
+		AD574713D8D7E05FC53AE65023E4ADB8 /* TIMCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TIMCallback.h; sourceTree = "<group>"; };
+		B753F62ED1CE1644B513C00AB7B29C94 /* IMFriendshipExt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IMFriendshipExt.h; sourceTree = "<group>"; };
+		B8C84BB90273AE7083D68FAC04F25318 /* Pods-QcloudIMOpenSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QcloudIMOpenSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BBAA8D240B2236EC21425855F11D21B5 /* TIMComm+Group.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TIMComm+Group.h"; sourceTree = "<group>"; };
+		BCDCA7B4DF0F34392D06C6EC79CBCBF7 /* ImSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ImSDK.h; sourceTree = "<group>"; };
+		BF4ED9895943C0B8B50BB7497EC9E28C /* Pods-QcloudIMOpenSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QcloudIMOpenSDK_Example-resources.sh"; sourceTree = "<group>"; };
+		BFD7373DDC51E5E3CAE771D6A999C548 /* TIMManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TIMManager.h; sourceTree = "<group>"; };
+		C2F0B9B40F712C7C5BAEE0749D1BDFC6 /* TLSRefreshTicketListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TLSRefreshTicketListener.h; sourceTree = "<group>"; };
+		C9C399CF3960ADE18886BEEF45A7473A /* Pods-QcloudIMOpenSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QcloudIMOpenSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CB304681ADDFEBC1153C584BB0AAB988 /* TLSHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TLSHelper.h; sourceTree = "<group>"; };
+		CB73376791587408E348269EC92FCD79 /* TIMManager+MsgExt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TIMManager+MsgExt.h"; sourceTree = "<group>"; };
+		CD4749851F9DE8255084A221D0FAA7AD /* IMSdkComm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IMSdkComm.h; sourceTree = "<group>"; };
+		D10316DC8157E4E55EC10C900C2A029E /* Pods-QcloudIMOpenSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QcloudIMOpenSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		D44F82637264A47FF44449544968812F /* Pods-QcloudIMOpenSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QcloudIMOpenSDK_Tests-resources.sh"; sourceTree = "<group>"; };
+		D493D37C607BC81BB358017A30ED7F8A /* ImSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImSDK.framework; path = QcloudIMOpenSDK/Classes/IM_iOS_SDK_3.1.1/ImSDK.framework; sourceTree = "<group>"; };
+		D4DC4255E0A23697D0CA3612C97A2880 /* IMGroupExt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IMGroupExt.framework; path = QcloudIMOpenSDK/Classes/IM_iOS_SDK_3.1.1/IMGroupExt.framework; sourceTree = "<group>"; };
+		D59034F671824E0152C97E44CD4F98BA /* QcloudIMOpenSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QcloudIMOpenSDK-dummy.m"; sourceTree = "<group>"; };
+		D6051EFE94D96A43CBC8F5F6415CC489 /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		D9D4683073D3D8C3F46F67B994DC1DDD /* TIMConversation+MsgExt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TIMConversation+MsgExt.h"; sourceTree = "<group>"; };
+		E57DFB77C2E73858F01B2CA57A4F096D /* QcloudIMOpenSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QcloudIMOpenSDK-prefix.pch"; sourceTree = "<group>"; };
+		F08E4F54565FFC4892E078032217EBA3 /* TIMVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TIMVersion.h; sourceTree = "<group>"; };
+		F2C396E5C50BD8EE53E0362FE2E06AE8 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		F42655C88132F706878344AA802AC2C1 /* TLSSmsRegListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TLSSmsRegListener.h; sourceTree = "<group>"; };
+		F649C0E275B7A08D50ED44A35AF8A9FF /* Pods-QcloudIMOpenSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QcloudIMOpenSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		FF9EDE91DEE70ED6BF5FB0B20E89DB59 /* TLSPwdRegListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TLSPwdRegListener.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28B5A994A0737D2E4B87CD910BE5AF23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0721A5E4082B45845B0B001064BE3D38 /* CoreTelephony.framework in Frameworks */,
+				57DCEBBBCE51A36E2EF317CBC36E082D /* Foundation.framework in Frameworks */,
+				1FA478C5ADE95958B5CB8B32C209A061 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E75FEF9808DF19606F547F1B1FEFAFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1224231152D3F9910D50E5CAE0B222F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E779CF5FA9506CDFBAA1567B0036FD97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD873851E781EB932BDC48996142494F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FB14AC31DBEF098B82D8CB0E2456C0D /* Pods-QcloudIMOpenSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				369AF12B984E36A598104E718BACE870 /* Pods-QcloudIMOpenSDK_Example-acknowledgements.markdown */,
+				812F57DA2905D4F37AD18417153E44C8 /* Pods-QcloudIMOpenSDK_Example-acknowledgements.plist */,
+				F649C0E275B7A08D50ED44A35AF8A9FF /* Pods-QcloudIMOpenSDK_Example-dummy.m */,
+				016FB79661170F64DDABF4C3F5888BEB /* Pods-QcloudIMOpenSDK_Example-frameworks.sh */,
+				BF4ED9895943C0B8B50BB7497EC9E28C /* Pods-QcloudIMOpenSDK_Example-resources.sh */,
+				C9C399CF3960ADE18886BEEF45A7473A /* Pods-QcloudIMOpenSDK_Example.debug.xcconfig */,
+				794DF6D5381280BFD69BEA8AE2888C5A /* Pods-QcloudIMOpenSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-QcloudIMOpenSDK_Example";
+			path = "Target Support Files/Pods-QcloudIMOpenSDK_Example";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1F41256A09661734466D0BEFE210060 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D4B622570FF886452AB7ED96F209C09 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				B753F62ED1CE1644B513C00AB7B29C94 /* IMFriendshipExt.h */,
+				0440C8FD5A22C9484857006F5C0F4A1E /* TIMComm+FriendshipExt.h */,
+				511BB82E7F01ED26999AB4E616AC46D0 /* TIMFriendshipManager+Ext.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		35F60A2F87882A0217BF8E163D598B26 /* Pods-QcloudIMOpenSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6E73BD7A15A3667213B39C145734D914 /* Pods-QcloudIMOpenSDK_Tests-acknowledgements.markdown */,
+				B8C84BB90273AE7083D68FAC04F25318 /* Pods-QcloudIMOpenSDK_Tests-acknowledgements.plist */,
+				D10316DC8157E4E55EC10C900C2A029E /* Pods-QcloudIMOpenSDK_Tests-dummy.m */,
+				7C9CE32AF841B4D53CAC7CDEBD9FB38D /* Pods-QcloudIMOpenSDK_Tests-frameworks.sh */,
+				D44F82637264A47FF44449544968812F /* Pods-QcloudIMOpenSDK_Tests-resources.sh */,
+				47C8A7EA27ED6EA7256509F0D4A9D6E2 /* Pods-QcloudIMOpenSDK_Tests.debug.xcconfig */,
+				7501EA8032E6859315351A9B5AAF139E /* Pods-QcloudIMOpenSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-QcloudIMOpenSDK_Tests";
+			path = "Target Support Files/Pods-QcloudIMOpenSDK_Tests";
+			sourceTree = "<group>";
+		};
+		38EE14C6F01051B07B5DCE5C28C6475F /* QALSDK.framework */ = {
+			isa = PBXGroup;
+			children = (
+				5191D995F19B44F90BBF7CF851397B9F /* QALSDK */,
+				BD410EA5943ED0DEE9BA1E15A9ACE170 /* Headers */,
+			);
+			name = QALSDK.framework;
+			path = QcloudIMOpenSDK/Classes/IM_iOS_SDK_3.1.1/QALSDK.framework;
+			sourceTree = "<group>";
+		};
+		5FB3646BE5B557B828FAB2B57E4A0040 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B00C5DC07717B45FB3BB530E46546C2 /* libPods-QcloudIMOpenSDK_Example.a */,
+				2CFE3E54F9EB589942C136ABD2383CAE /* libPods-QcloudIMOpenSDK_Tests.a */,
+				02673FCBE88D94909BA337330F2949B6 /* libQcloudIMOpenSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62930D83CE3D6719D27FAEF2EDFA4350 /* IMFriendshipExt.framework */ = {
+			isa = PBXGroup;
+			children = (
+				600FD52FEDC60FD387C2C780610258A3 /* IMFriendshipExt */,
+				2D4B622570FF886452AB7ED96F209C09 /* Headers */,
+			);
+			name = IMFriendshipExt.framework;
+			path = QcloudIMOpenSDK/Classes/IM_iOS_SDK_3.1.1/IMFriendshipExt.framework;
+			sourceTree = "<group>";
+		};
+		655D099A5E71D615EAB18DD25C706980 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A4FA70D764D3FD6B3986A343E99B8E5 /* IMFriendshipExt.framework */,
+				D4DC4255E0A23697D0CA3612C97A2880 /* IMGroupExt.framework */,
+				7A229C9F19B762BFE353D93D4237AFE2 /* IMMessageExt.framework */,
+				D493D37C607BC81BB358017A30ED7F8A /* ImSDK.framework */,
+				18754DC47AFF45D32A42F58EF1A5D646 /* QALSDK.framework */,
+				2D6EA8B17085CEF489F06B800737594D /* TLSSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79585359587C9A566C989F659734F64A /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				2319A42AC78E990BBDAD26EC0AF41D9A /* TLSAccountHelper.h */,
+				62B36718E3268671159CC772F9030A18 /* TLSDefine.h */,
+				49E294398FB79590C2A2E95365787BE3 /* TLSErrInfo.h */,
+				5DF910CA46093FB00E7A17B1060EF293 /* TLSExchangeTicketListener.h */,
+				43012087BFD1F728F29CFD21E4D0D559 /* TLSGuestLoginListener.h */,
+				2854C661FF7CC3E6EF467FCCE7BF50FF /* TLSGuestRegListener.h */,
+				CB304681ADDFEBC1153C584BB0AAB988 /* TLSHelper.h */,
+				968BC704CBFE135856B4B1C4D44A1B36 /* TLSLoginHelper.h */,
+				3514554FD510AF2CD2241C5F927F7886 /* TLSOpenAccessTokenListener.h */,
+				A6C0A793FB6D36203133419B50979A83 /* TLSOpenBindListener.h */,
+				3F9C7FCEFC06D9923692B5B186D0F5DD /* TLSOpenLoginListener.h */,
+				94FBA02CF0ABFF0F5124090CCD19BC4D /* TLSOpenQueryListener.h */,
+				61035E5270B47F4636E87230E7809FD9 /* TLSPwdLoginListener.h */,
+				FF9EDE91DEE70ED6BF5FB0B20E89DB59 /* TLSPwdRegListener.h */,
+				7ABEE868C8BB2505DBD57A9FF35223B8 /* TLSPwdResetListener.h */,
+				C2F0B9B40F712C7C5BAEE0749D1BDFC6 /* TLSRefreshTicketListener.h */,
+				3FF8D417EA6421C3C0DD407EB05EB2E9 /* TLSSmsLoginListener.h */,
+				F42655C88132F706878344AA802AC2C1 /* TLSSmsRegListener.h */,
+				9A28E354CD87845AD15CBA0CDE10B53C /* TLSStrAccountRegListener.h */,
+				75A5693CE790F1ECAB9BFC859626EC9A /* TLSTokenInfo.h */,
+				5CE9F98900AD4DAD8E57F9E5983B00EA /* TLSUserInfo.h */,
+				D6051EFE94D96A43CBC8F5F6415CC489 /* version.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		7BCE6307FC7FE40E4F35CB99C7C5051F /* IMMessageExt.framework */ = {
+			isa = PBXGroup;
+			children = (
+				ABA04E5C5546ED01528F309A7F9BC0D3 /* IMMessageExt */,
+				DEEFDE3FA52CEBDA3E2E903B18E0FBD8 /* Headers */,
+			);
+			name = IMMessageExt.framework;
+			path = QcloudIMOpenSDK/Classes/IM_iOS_SDK_3.1.1/IMMessageExt.framework;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				DA629809DFA38361D971E1A2A5BF3EF9 /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				5FB3646BE5B557B828FAB2B57E4A0040 /* Products */,
+				7DC6F66C9B1679E97A3A9ACE315F41CB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DC6F66C9B1679E97A3A9ACE315F41CB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FB14AC31DBEF098B82D8CB0E2456C0D /* Pods-QcloudIMOpenSDK_Example */,
+				35F60A2F87882A0217BF8E163D598B26 /* Pods-QcloudIMOpenSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8007A00027E292BE933901CDB6BFCF42 /* TLSSDK.framework */ = {
+			isa = PBXGroup;
+			children = (
+				9C3CB77F6E768968A22C367BD545E864 /* TLSSDK */,
+				79585359587C9A566C989F659734F64A /* Headers */,
+			);
+			name = TLSSDK.framework;
+			path = QcloudIMOpenSDK/Classes/IM_iOS_SDK_3.1.1/TLSSDK.framework;
+			sourceTree = "<group>";
+		};
+		918990089E14A443FFEDF5F80E8ADB00 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				09C9DA232BC396A9490E3F2E95EC3BAC /* QcloudIMOpenSDK.xcconfig */,
+				D59034F671824E0152C97E44CD4F98BA /* QcloudIMOpenSDK-dummy.m */,
+				E57DFB77C2E73858F01B2CA57A4F096D /* QcloudIMOpenSDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QcloudIMOpenSDK";
+			sourceTree = "<group>";
+		};
+		A1F41256A09661734466D0BEFE210060 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F2C396E5C50BD8EE53E0362FE2E06AE8 /* CoreTelephony.framework */,
+				9212B0858CE38CAB25B153C4609AA244 /* Foundation.framework */,
+				584CB9F6BD0B54A2910EB5167AABB075 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A59A6BEE34486EC214A4D52E625D9C9D /* IMGroupExt.framework */ = {
+			isa = PBXGroup;
+			children = (
+				28B212448DE622C2628F9E90D6F493AB /* IMGroupExt */,
+				F88110BC69CE42EB0D0F156F22EE7F56 /* Headers */,
+			);
+			name = IMGroupExt.framework;
+			path = QcloudIMOpenSDK/Classes/IM_iOS_SDK_3.1.1/IMGroupExt.framework;
+			sourceTree = "<group>";
+		};
+		B4C287E912A94C18F5FEFC4FF28F9E0D /* QcloudIMOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				655D099A5E71D615EAB18DD25C706980 /* Frameworks */,
+				62930D83CE3D6719D27FAEF2EDFA4350 /* IMFriendshipExt.framework */,
+				A59A6BEE34486EC214A4D52E625D9C9D /* IMGroupExt.framework */,
+				7BCE6307FC7FE40E4F35CB99C7C5051F /* IMMessageExt.framework */,
+				EF6CB50F3C93C9053732A7D23BD4AC32 /* ImSDK.framework */,
+				38EE14C6F01051B07B5DCE5C28C6475F /* QALSDK.framework */,
+				918990089E14A443FFEDF5F80E8ADB00 /* Support Files */,
+				8007A00027E292BE933901CDB6BFCF42 /* TLSSDK.framework */,
+			);
+			name = QcloudIMOpenSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BD410EA5943ED0DEE9BA1E15A9ACE170 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				5BACF8E178C40CA7432ACE984D398C88 /* QalSDKCallbackProtocol.h */,
+				066947B118C72C362100B224473A3D62 /* QalSDKProxy.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		C2E7CB07547802D1067639F48E242BAA /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				BCDCA7B4DF0F34392D06C6EC79CBCBF7 /* ImSDK.h */,
+				CD4749851F9DE8255084A221D0FAA7AD /* IMSdkComm.h */,
+				41AD8CFD9B8B2DA17D8CAB26AFBE3E6D /* IMSdkInt.h */,
+				AD574713D8D7E05FC53AE65023E4ADB8 /* TIMCallback.h */,
+				84CAC0FAD8E0B3B1A22E6A80ADFD0E9D /* TIMComm.h */,
+				83CD9B6154345D772C6130AA9A95D3EC /* TIMConversation.h */,
+				380982B17EBA5DB1316ECA862E4BB32A /* TIMFileManager.h */,
+				72C652210C0DFA4E521879A4738C99BB /* TIMFriendshipManager.h */,
+				5A65DCF91283AB9DC1FEC725AA9D0D8B /* TIMGroupManager.h */,
+				BFD7373DDC51E5E3CAE771D6A999C548 /* TIMManager.h */,
+				50D0AF5004B1E78DC5DA650E742DF66F /* TIMMessage.h */,
+				F08E4F54565FFC4892E078032217EBA3 /* TIMVersion.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		DA629809DFA38361D971E1A2A5BF3EF9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4C287E912A94C18F5FEFC4FF28F9E0D /* QcloudIMOpenSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DEEFDE3FA52CEBDA3E2E903B18E0FBD8 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				A0B300FF3E54696A053D68EEC6560303 /* IMMessageExt.h */,
+				5553EFFDDF2BE40DA5A36C5D53E1A589 /* TIMComm+MsgExt.h */,
+				D9D4683073D3D8C3F46F67B994DC1DDD /* TIMConversation+MsgExt.h */,
+				CB73376791587408E348269EC92FCD79 /* TIMManager+MsgExt.h */,
+				811A905DFF17ACB1F0A1E5734755A5DA /* TIMMessage+MsgExt.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		EF6CB50F3C93C9053732A7D23BD4AC32 /* ImSDK.framework */ = {
+			isa = PBXGroup;
+			children = (
+				7D30577D110D675412789D7D577F01CF /* ImSDK */,
+				C2E7CB07547802D1067639F48E242BAA /* Headers */,
+			);
+			name = ImSDK.framework;
+			path = QcloudIMOpenSDK/Classes/IM_iOS_SDK_3.1.1/ImSDK.framework;
+			sourceTree = "<group>";
+		};
+		F88110BC69CE42EB0D0F156F22EE7F56 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				03A24E5AA7AAFA722BEEB2CB7EAF1943 /* IMGroupExt.h */,
+				BBAA8D240B2236EC21425855F11D21B5 /* TIMComm+Group.h */,
+				9F3ACB6EF329E6D2F10634585CCFB830 /* TIMGroupManager+Ext.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E0A37E6D8F155ED5BBACBB5F02693753 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63FB3130F897954B22B64563B4C610AF /* IMFriendshipExt.h in Headers */,
+				91DC28ACD91BA7E8DA07C33E4DF8C670 /* IMGroupExt.h in Headers */,
+				547FDBE94D51325D8D12CE5D63A436D8 /* IMMessageExt.h in Headers */,
+				DF194C41FD8915BCB7B353BCBAFF51AB /* ImSDK.h in Headers */,
+				4F52F52263F358A44C36A73C27B04049 /* IMSdkComm.h in Headers */,
+				7110975DFC69CE95BF06ACBBFC6C5CDC /* IMSdkInt.h in Headers */,
+				ED1D1BD06D3DFD24AF416FAC6BAF0C55 /* QalSDKCallbackProtocol.h in Headers */,
+				F1B27D60113B7DA59096D22D22CE9657 /* QalSDKProxy.h in Headers */,
+				5F7F1CB827E4545BB9DBE4D28BA299FF /* TIMCallback.h in Headers */,
+				5BAB3CF0671A67BE958F09E86CBF33DE /* TIMComm+FriendshipExt.h in Headers */,
+				C9AAD187C2C39B35FA4E4B048047ED69 /* TIMComm+Group.h in Headers */,
+				6ACDF561600F4EC9E0116C9818FEAA33 /* TIMComm+MsgExt.h in Headers */,
+				60F37F2A5373A59740E063F265E90B18 /* TIMComm.h in Headers */,
+				82CD21C3E74E44E3DEFC7EA026A3C534 /* TIMConversation+MsgExt.h in Headers */,
+				342CC55FDD3504D174E242BCF908A165 /* TIMConversation.h in Headers */,
+				9E3DC9F369179A2C7FA53AC5277DFF0E /* TIMFileManager.h in Headers */,
+				63ADB755AB928624B7A56D72A324B6BA /* TIMFriendshipManager+Ext.h in Headers */,
+				E443AE3AA5AEB8EC1C062B16D970E1CE /* TIMFriendshipManager.h in Headers */,
+				A89470793EC9D8C4509DEDBCA30ABBC6 /* TIMGroupManager+Ext.h in Headers */,
+				0A0B7BE8D62D1FF67737F2255AF0C76A /* TIMGroupManager.h in Headers */,
+				39E5ABA226B81C47F032694E745DB6FC /* TIMManager+MsgExt.h in Headers */,
+				D3FCA693C4A4FD7EC43AC86335E4A0B1 /* TIMManager.h in Headers */,
+				E12C2757622DEB5CD4125EF32E36E6C6 /* TIMMessage+MsgExt.h in Headers */,
+				A89880D21DE41D7C5811956A7F312A2C /* TIMMessage.h in Headers */,
+				6DFEFCB220485BC29E5B2BEA0E6B1DA6 /* TIMVersion.h in Headers */,
+				B2277539A6A9E7BB8593CD88B3DB9FAB /* TLSAccountHelper.h in Headers */,
+				337756C07B53F7EC82A677418F546CCF /* TLSDefine.h in Headers */,
+				C9B72ABB554F045B2C0CBCECA0313A77 /* TLSErrInfo.h in Headers */,
+				07D0F2E54ACF76748150EFA09DD48137 /* TLSExchangeTicketListener.h in Headers */,
+				D3A3DDEAC0C1664B96069A35EBD255E4 /* TLSGuestLoginListener.h in Headers */,
+				25948CAE94F81DA23538049AD5C7A6EA /* TLSGuestRegListener.h in Headers */,
+				159DDDC681E877E2F68D314D7C0C9720 /* TLSHelper.h in Headers */,
+				D30B1C0F1287A03D474AE12B85F78CB7 /* TLSLoginHelper.h in Headers */,
+				506C7EBBA11020278229D4633A937CA9 /* TLSOpenAccessTokenListener.h in Headers */,
+				6E1778E7625765065E4F98FB8E686A1F /* TLSOpenBindListener.h in Headers */,
+				2AAAA82030BAB4F227F7926745B5B02A /* TLSOpenLoginListener.h in Headers */,
+				4ED1D636DC265B55E2EB89492708E396 /* TLSOpenQueryListener.h in Headers */,
+				B34504615E399D9BB86C0E6A15ED0EBD /* TLSPwdLoginListener.h in Headers */,
+				A73BD1034C7FD77F8AD515F6786F71F3 /* TLSPwdRegListener.h in Headers */,
+				BF72222470BB5CC708F516AABB51FF8A /* TLSPwdResetListener.h in Headers */,
+				07D4F256322EA18B7D820E484A914665 /* TLSRefreshTicketListener.h in Headers */,
+				6E84A9220E5CF13FF1F11405A18C0CD8 /* TLSSmsLoginListener.h in Headers */,
+				06D43ADECDA24E994715F5B317EA335C /* TLSSmsRegListener.h in Headers */,
+				3A86AF0F0BC9B9B2B50D4F2518497CC0 /* TLSStrAccountRegListener.h in Headers */,
+				D5173CDCC7FAC9E04CFFAD2DA0D6848F /* TLSTokenInfo.h in Headers */,
+				01CE6BC871FD860FC3A7D89097CA5B08 /* TLSUserInfo.h in Headers */,
+				D20B814A56524499F5622999EB94452C /* version.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		708F1AD9B0EC68FDBE3DE41B62E6799B /* Pods-QcloudIMOpenSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE326CD10FE158C982FF569669D7AA7F /* Build configuration list for PBXNativeTarget "Pods-QcloudIMOpenSDK_Example" */;
+			buildPhases = (
+				078AA2D25DC59BAC19F9C90858CFD987 /* Sources */,
+				E779CF5FA9506CDFBAA1567B0036FD97 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B6382DBD6785900A1B4368F5C89BD89 /* PBXTargetDependency */,
+			);
+			name = "Pods-QcloudIMOpenSDK_Example";
+			productName = "Pods-QcloudIMOpenSDK_Example";
+			productReference = 1B00C5DC07717B45FB3BB530E46546C2 /* libPods-QcloudIMOpenSDK_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9779016B6868002ED479697D9BAECCE3 /* QcloudIMOpenSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 461C9BEE8A53BAECEB9CDB17B1D92C4F /* Build configuration list for PBXNativeTarget "QcloudIMOpenSDK" */;
+			buildPhases = (
+				E18FF05D87D463DC077C8770D2A8250F /* Sources */,
+				28B5A994A0737D2E4B87CD910BE5AF23 /* Frameworks */,
+				E0A37E6D8F155ED5BBACBB5F02693753 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QcloudIMOpenSDK;
+			productName = QcloudIMOpenSDK;
+			productReference = 02673FCBE88D94909BA337330F2949B6 /* libQcloudIMOpenSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E5DCBC87A5ECBA59927F24640A161A9B /* Pods-QcloudIMOpenSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7226983FBE850991C79A9CDC97E988FC /* Build configuration list for PBXNativeTarget "Pods-QcloudIMOpenSDK_Tests" */;
+			buildPhases = (
+				B67C9E853C6527DDEDB1E1A25715DC40 /* Sources */,
+				7E75FEF9808DF19606F547F1B1FEFAFF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-QcloudIMOpenSDK_Tests";
+			productName = "Pods-QcloudIMOpenSDK_Tests";
+			productReference = 2CFE3E54F9EB589942C136ABD2383CAE /* libPods-QcloudIMOpenSDK_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5FB3646BE5B557B828FAB2B57E4A0040 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				708F1AD9B0EC68FDBE3DE41B62E6799B /* Pods-QcloudIMOpenSDK_Example */,
+				E5DCBC87A5ECBA59927F24640A161A9B /* Pods-QcloudIMOpenSDK_Tests */,
+				9779016B6868002ED479697D9BAECCE3 /* QcloudIMOpenSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		078AA2D25DC59BAC19F9C90858CFD987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B30BEEA064BA4BC718B355A808F3D9 /* Pods-QcloudIMOpenSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B67C9E853C6527DDEDB1E1A25715DC40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25D220841C19A193E442254F8849DD1 /* Pods-QcloudIMOpenSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E18FF05D87D463DC077C8770D2A8250F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B69842C9149542BF43815F159B39BF /* IMFriendshipExt in Sources */,
+				5A1EB2D1D2AFBBC4468CE5F76F7F6374 /* IMGroupExt in Sources */,
+				9E470E54E8F66C0883C14B4B12AB02D0 /* IMMessageExt in Sources */,
+				5F8F3C24286B079E3A2ABE12AB1890D6 /* ImSDK in Sources */,
+				72D775CEA0727612729FB8CDF9F930AD /* QALSDK in Sources */,
+				2A35C7B889045C158463AFB75D66E88B /* QcloudIMOpenSDK-dummy.m in Sources */,
+				774C8A4E3656F8CD62BA78974AD585BF /* TLSSDK in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B6382DBD6785900A1B4368F5C89BD89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QcloudIMOpenSDK;
+			target = 9779016B6868002ED479697D9BAECCE3 /* QcloudIMOpenSDK */;
+			targetProxy = 9449EE4B2B131ACF3084B562638119B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DAD799126C3BC582247927048B99023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7501EA8032E6859315351A9B5AAF139E /* Pods-QcloudIMOpenSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3C6A05094F63041FE0EA469F51CD2BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9C399CF3960ADE18886BEEF45A7473A /* Pods-QcloudIMOpenSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		81F030A85ABCCCADFF934BE959B4B689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09C9DA232BC396A9490E3F2E95EC3BAC /* QcloudIMOpenSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/QcloudIMOpenSDK/QcloudIMOpenSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9899AB01EF7C281A5A0AAA9E2152D28A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47C8A7EA27ED6EA7256509F0D4A9D6E2 /* Pods-QcloudIMOpenSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEBF201DEC083DD72C7F8C66708C8113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 794DF6D5381280BFD69BEA8AE2888C5A /* Pods-QcloudIMOpenSDK_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA81EB04BCBDE0CFD4F1143CC4C91B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09C9DA232BC396A9490E3F2E95EC3BAC /* QcloudIMOpenSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/QcloudIMOpenSDK/QcloudIMOpenSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		461C9BEE8A53BAECEB9CDB17B1D92C4F /* Build configuration list for PBXNativeTarget "QcloudIMOpenSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81F030A85ABCCCADFF934BE959B4B689 /* Debug */,
+				FA81EB04BCBDE0CFD4F1143CC4C91B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7226983FBE850991C79A9CDC97E988FC /* Build configuration list for PBXNativeTarget "Pods-QcloudIMOpenSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9899AB01EF7C281A5A0AAA9E2152D28A /* Debug */,
+				0DAD799126C3BC582247927048B99023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE326CD10FE158C982FF569669D7AA7F /* Build configuration list for PBXNativeTarget "Pods-QcloudIMOpenSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6A05094F63041FE0EA469F51CD2BCE /* Debug */,
+				BEBF201DEC083DD72C7F8C66708C8113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,1 @@
+../../../../../../QcloudIMOpenSDK/Classes/IM_iOS_SDK_3.1.1/IMMessageExt.framework/Headers/TIMConversation+MsgExt.h

@@ -1,0 +1,10 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../QcloudIMOpenSDK/Classes/IM_iOS_SDK_3.1.1"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/QcloudIMOpenSDK"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/QcloudIMOpenSDK"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/QcloudIMOpenSDK"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"QcloudIMOpenSDK" -l"c++" -l"sqlite3" -l"stdc++.6" -l"z" -framework "CoreTelephony" -framework "IMFriendshipExt" -framework "IMGroupExt" -framework "IMMessageExt" -framework "ImSDK" -framework "QALSDK" -framework "SystemConfiguration" -framework "TLSSDK"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
